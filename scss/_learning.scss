@@ -1,0 +1,37 @@
+.cards{
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+.card{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px !important;
+    max-height: 392px;
+    margin-inline: auto;
+    &-content{
+    
+      justify-content: center;
+      align-items: center;
+    }
+    &-image{
+        img{
+            width: 100% !important;
+            height: 194.828px;
+            // height: 100% !important;
+        }
+    }
+}
+
+.card-title {
+    margin-top: 0px;
+}
+
+[placeholder]{
+    text-align: center !important;
+}
+}

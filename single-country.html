@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails du Pays</title>
+    <link rel="stylesheet" href="/css/material-icons.css">
+    <link rel="stylesheet" href="/css/materialize.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/single-country.css">
+</head>
+<body> 
+    <nav class="navbar-wrapper">
+        <div class="container">
+           <a href="index.html"> <span class="brand-logo left">
+            <!-- <i class="material-icons right">question_answer</i> -->
+             <!-- <img src="./images/LOGO_1.png" alt="" class="responsive-img left"> -->
+            <strong>Jeux de Culture</strong>
+        </span></a>
+            <a href="#!" class="hide-on-large-only">
+                <i class="sidenav-trigger  material-icons right" data-target="mobile-nav">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="learning.html">Apprendre</a></li>
+                <li><a href="play.html">Jouer</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+ 
+
+
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="learning.html">Apprendre</a></li>
+        <li><a href="play.html">Jouer</a></li>
+        
+    </ul>
+
+    <main class="container">
+        <section class="country-details">
+            <div class="card">
+                <div class="card-image">
+                    <img id="country-flag" alt="Drapeau du Pays" class="flag">
+                </div>
+                <div class="card-content">
+                    <h1 id="country-name" class="card-title"></h1>
+                    <ul id="country-info" class="details"></ul>
+                </div>
+                <div class="card-action">
+                    <a href="learning.html" class="btn" id="linkTolearning">Retour à la liste</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/singleCountry.js" type="module"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+</body>
+</html>

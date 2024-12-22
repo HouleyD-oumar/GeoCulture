@@ -1,0 +1,8 @@
+.App-header {
+  display: grid;
+  grid-template-columns: 100px 200px 1fr;
+}
+.App-header .Navbar {
+  display: flex;
+  justify-content: space-evenly;
+}

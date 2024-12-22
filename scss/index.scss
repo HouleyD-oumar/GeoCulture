@@ -1,0 +1,103 @@
+@import url("/fonts/material-icons/index.css");
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ 
+}
+nav,.page-footer{
+    background-color: #7dfa00;
+}
+
+.showcase{
+    background:  no-repeat center  / cover;
+    // background-size: auto;
+    height:100vh;
+    position: relative;
+    padding: 30px;
+    p{
+        padding: 1.3rem;
+    }
+    .contryInfo{
+        background-color: #7efc00;
+        position: relative;
+        bottom: 20%;
+        top: 20%;
+        right: 20px;
+        height: fit-content;
+        min-width: 300px;
+        max-width: fit-content;
+        
+        
+        padding: inherit; 
+        padding-top: 0;
+        margin: 1.7rem;
+        margin-left: auto;
+        margin-right: auto;
+        h1{
+            // font-weight: 900;
+
+        }
+        strong{
+            font-weight: 900;
+        }
+        li{
+            font-weight: 700;
+
+        }
+        
+    }
+    .btns{
+        position: absolute;
+       
+        width:400px;
+        // display: flex;
+        justify-content: space-between;
+        align-items:center ;
+        
+        a[class *=btn]{
+            background-color: lawngreen  ;
+            margin-left:  1.2rem;
+            color: rgb(255, 255, 255);
+            font-size: small;
+            font-weight: bolder;
+
+        }
+    }
+}
+
+.sidenav {
+    
+//     background-color: lighten($color: lawngreen, $amount: 8) ;
+//    a{
+//     color: #0c0b0b !important;
+//    }
+  }
+
+
+
+.bg-inherit{
+    background-color: inherit;
+}
+.bg-Lgreen{
+    background-color: rgba(126, 252, 0, 0.37);
+}
+.primary{
+    background-color:lawngreen !important;
+}
+
+.symbol-money{
+    font-size: large;
+    font-weight: bolder;
+    color: gold; 
+    text-shadow: #7dfa00 1px
+
+}
+
+
+// import modular css
+@import  'play';
+@import  'mediaQuerries';
+@import 'learning';
+@import 'validation'
+// @import 'single-country';

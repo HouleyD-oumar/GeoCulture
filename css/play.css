@@ -1,0 +1,13 @@
+.play-area {
+  max-width: 700px;
+}
+.play-area #play-img {
+  margin: default auto;
+}
+.play-area .options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.play-area .options .btn {
+  background-color: rgba(0, 0, 0, 0.8156862745);
+}

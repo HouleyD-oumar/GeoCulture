@@ -1,0 +1,60 @@
+.back-button {
+  margin-bottom: 20px;
+}
+
+.back-button button {
+  background-color: #4c566a;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.country-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.flag {
+  max-width: 300px;
+  border: 1px solid #fff;
+}
+
+.details {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 20px;
+}
+
+.details h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.details p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.border-countries {
+  margin-top: 20px;
+}
+
+.border-countries button {
+  background-color: #4c566a;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=single-country.css.map */

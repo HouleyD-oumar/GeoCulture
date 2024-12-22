@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeux de Culture</title>
+    <link rel="stylesheet" href="/css/material-icons.css">
+    <link rel="stylesheet" href="/css/materialize.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>    
+    <nav class="navbar-wrapper">
+        <div class="container">
+           <a href="index.html"> <span class="brand-logo left">
+            <!-- <i class="material-icons right">question_answer</i> -->
+             <!-- <img src="./images/LOGO_1.png" alt="" class="responsive-img left"> -->
+            <strong>Jeux de Culture</strong>
+        </span></a>
+            <a href="#!" class="hide-on-large-only">
+                <i class="sidenav-trigger  material-icons right" data-target="mobile-nav">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="learning.html">Apprendre</a></li>
+                <li><a href="play.html">Jouer</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+ 
+
+
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="learning.html">Apprendre</a></li>
+        <li><a href="play.html">Jouer</a></li>
+        
+    </ul>
+   
+    <section class="container" id="globalContainer">
+        <div class="mode-selection">
+            <h4>Select Game Mode:</h4>
+            <select id="game-mode">
+                <option value="name">Country Name</option>
+                <option value="capital">Capital City</option>
+                <option value="currency">Currency</option>
+                <option value="language">Language</option>
+            </select>
+        </div>
+        <div id="score-container" style="display: none;">
+            <h4>Your Score: <span id="score">0</span></h4>
+            <button id="restart-quiz" class="btn-large blue">Restart Quiz</button>
+        </div>
+        <div class="difficulty-selection">
+            <h4>Select Difficulty Level:</h4>
+            <select id="difficulty-level">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+    
+        <button id="start-quiz" class="btn-large blue">Start Quiz</button>
+    
+        <div class="play-area center card" id="quizz" style="display: none;">
+            <div class="card-title">
+                <h3 id="p-question">Quelle est le nom de ce pays?</h3>
+                <span class="btn-floating red text-darken-5 white-text large-text center lighten-1 pulse" id="game-time">03:59</span>
+            </div>
+            <div class="card-image  ">
+                <img src="/images/contries/flags/guinée-flag.svg" alt="" id="play-img" class="responsive-img z-depth-2">
+            </div>
+            <div class="options card-action">
+                <div class="btn-large option white black-text lighten-2 hoverable waves-effect wave-green text-darken-5" id="option-a"></div>
+                <div class="btn-large option white black-text lighten-2 hoverable waves-effect wave-green text-darken-5" id="option-b"></div>
+                <div class="btn-large option white black-text lighten-2 hoverable waves-effect wave-green text-darken-5" id="option-c"></div>
+                <div class="btn-large option white black-text lighten-2 hoverable waves-effect wave-green text-darken-5" id="option-d"></div>
+            </div>
+            <div class="progress lighten-2 white" style="height: 20px;">
+                <div class="determinate blue" style="width: 0%;"></div>
+            </div>
+        </div>
+    </section>
+        <footer class="page-footer">
+            
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2024 Copyright Big Tenor
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+        </footer>
+
+  
+</body>
+<script src="js/materialize.js"></script>
+<script src="js/play.js" type="module"></script>
+<script src="js/init.js"></script>
+</html>

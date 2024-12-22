@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jeux de Culture</title>
+        <link rel="stylesheet" href="/css/material-icons.css">
+        <link rel="stylesheet" href="/css/materialize.css">
+        <link rel="stylesheet" href="/css/index.css">
+    </head>
+    <body>  
+        <nav class="navbar-wrapper">
+            <div class="container">
+               <a href="index.html"> <span class="brand-logo left">
+                <!-- <i class="material-icons right">question_answer</i> -->
+                 <!-- <img src="./images/LOGO_1.png" alt="" class="responsive-img left"> -->
+                <strong>Jeux de Culture</strong>
+            </span></a>
+                <a href="#!" class="hide-on-large-only">
+                    <i class="sidenav-trigger  material-icons right" data-target="mobile-nav">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="learning.html">Apprendre</a></li>
+                    <li><a href="play.html">Jouer</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+     
+    
+    
+        <ul class="sidenav" id="mobile-nav">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="learning.html">Apprendre</a></li>
+            <li><a href="play.html">Jouer</a></li>
+            
+        </ul>
+<section>
+    <main class="">
+        <div class="container">
+
+        <div class="country-filtrer section  row">
+          
+            <div class="input-field  col s12 m9 l8">
+                <input type="search" id="search" placeholder="entre le nom ou la capital du pays...">
+                <label for="search">
+                    <i class="material-icons label-icon prefix">search</i>
+                    
+                </label>
+            </div>
+         
+            <div class="input-field transparent col s12 m3 l4 card card-panel">
+                <select id="regional-filter" name="regional-filter" title="Filtrer par continent">
+                    <option value="none"  disabled>Filtrer par Continent</option>
+                    <div class="divider"></div>
+                    <option value="all" selected>Tous</option>
+                    <option value="Africa" class="option">Afrique</option>
+                    <option value="Europe" class="option">Europe</option>
+                    <option value="Asia" class="option">Asie</option>
+                    <option value="America" class="option">Amerique</option>
+                    <option value="Oceania" class="option">Oceanie</option>
+                </select>
+                <label>filtrer par continent</label>
+            </div>
+        </div>
+    </div>
+
+        <ul class="cards row container">
+         <span class="symbol-money"></span>
+
+
+        </ul>
+      
+    </main>
+</section>
+    
+</body>
+<script src="js/materialize.js"></script>
+<script src="js/learning.js" type="module"></script>
+<script src="js/init.js"></script>
+</html>

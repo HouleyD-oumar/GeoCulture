@@ -1,0 +1,59 @@
+// showcase
+@media screen and (min-width: 920px) {
+  .btns {
+    top: 50%;
+    bottom: 10%;
+    right: 10%;
+    left: 10%;
+    font-size: large;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .btns {
+    top: 0%;
+    bottom: 10%;
+    right: 10%;
+
+    left: 10%;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 601px) {
+  // .btns{
+  //     top: 50%;
+  //   bottom: 10%;
+  //   right: 10%;
+  //   left: 10%;
+  //   font-size: large;
+  // }
+  ul .card {
+    // max-width: 300px;
+    // height: 300px;
+    &-image {
+      img {
+        // @if(#AV){
+        //    height:auto;
+        // }
+
+        // height: fit-content;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+}
+
+@media only screen and (min-width: 993px) {
+}
+
+@media only screen and (min-width: 1201px) {
+}
+
+@media only screen and (min-width: 1201px) {
+}

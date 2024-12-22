@@ -1,0 +1,178 @@
+@import url("/fonts/material-icons/index.css");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav, .page-footer {
+  background-color: #7dfa00;
+}
+
+.showcase {
+  background: no-repeat center/cover;
+  height: 100vh;
+  position: relative;
+  padding: 30px;
+}
+.showcase p {
+  padding: 1.3rem;
+}
+.showcase .contryInfo {
+  background-color: #7efc00;
+  position: relative;
+  bottom: 20%;
+  top: 20%;
+  right: 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-width: 300px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: inherit;
+  padding-top: 0;
+  margin: 1.7rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.showcase .contryInfo strong {
+  font-weight: 900;
+}
+.showcase .contryInfo li {
+  font-weight: 700;
+}
+.showcase .btns {
+  position: absolute;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+}
+.showcase .btns a[class*=btn] {
+  background-color: lawngreen;
+  margin-left: 1.2rem;
+  color: rgb(255, 255, 255);
+  font-size: small;
+  font-weight: bolder;
+}
+
+.bg-inherit {
+  background-color: inherit;
+}
+
+.bg-Lgreen {
+  background-color: rgba(126, 252, 0, 0.37);
+}
+
+.primary {
+  background-color: lawngreen !important;
+}
+
+.symbol-money {
+  font-size: large;
+  font-weight: bolder;
+  color: gold;
+  text-shadow: #7dfa00 1px;
+}
+
+.play-area {
+  max-width: 700px;
+  min-height: 80vh;
+  transition: all 0.5s ease 0.3s;
+}
+.play-area .card-image {
+  padding: 0 24px 0 24px;
+  transition: all 0.5s ease 0.3s;
+}
+.play-area .card-title {
+  padding: 5px 0 0 0;
+  font-size: 2rem;
+  transition: all 0.5s ease 0.3s;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.play-area .card-title #p-question {
+  font-size: 2rem;
+}
+.play-area #play-img {
+  margin: 0;
+}
+.play-area .options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  transition: all 0.5s ease 0.3s;
+}
+.play-area .options .correct {
+  background-color: #7dfa00;
+}
+.play-area .options .incorrect {
+  background: rgb(249, 53, 53);
+}
+
+#globalContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 920px) {
+  .btns {
+    top: 50%;
+    bottom: 10%;
+    right: 10%;
+    left: 10%;
+    font-size: large;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .btns {
+    top: 0%;
+    bottom: 10%;
+    right: 10%;
+    left: 10%;
+  }
+}
+.cards {
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.cards .card {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 300px !important;
+  max-height: 392px;
+  margin-inline: auto;
+}
+.cards .card-content {
+  justify-content: center;
+  align-items: center;
+}
+.cards .card-image img {
+  width: 100% !important;
+  height: 194.828px;
+}
+.cards .card-title {
+  margin-top: 0px;
+}
+.cards [placeholder] {
+  text-align: center !important;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.success {
+  color: green;
+  font-size: 1em;
+  margin-top: 10px;
+}/*# sourceMappingURL=index.css.map */
