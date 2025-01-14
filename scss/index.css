@@ -9,8 +9,9 @@ nav, .page-footer {
   background-color: #7dfa00;
 }
 
-main {
-  min-height: calc(100vh - 165px);
+.page-footer {
+  position: fixed;
+  bottom: 0;
 }
 
 .showcase {

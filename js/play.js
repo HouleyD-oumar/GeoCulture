@@ -329,28 +329,27 @@ function loadQuiz() {
     document.getElementById('play-img').src = `/images/contries/flags/${country.alpha2Code}.svg`
 
 
-    let question;
-    switch (mode) {
-
-      case GAME_MODES.NAME:
-        question = `What is the name of this country?`;
-        currentCorrectAnswer = country.translations.fr;
-        break;
-      case GAME_MODES.CAPITAL:
-        question = `What is the capital of ${country.translations.fr}?`;
-        currentCorrectAnswer = country.capital;
-        break;
-      case GAME_MODES.CURRENCY:
-        question = `What currency is used in ${country.translations.fr}?`;
-        currentCorrectAnswer = country.currencies[0].name;
-        break;
-      case GAME_MODES.LANGUAGE:
-        question = `What is one of the official languages of ${country.translations.fr}?`;
-        currentCorrectAnswer = country.languages[0].name;
-        break;
-      default:
-        throw new Error('Invalid game mode');
-    }
+let question;
+switch (mode) {
+  case GAME_MODES.NAME:
+    question = `Quel est le nom de ce pays ?`;
+    currentCorrectAnswer = country.translations.fr;
+    break;
+  case GAME_MODES.CAPITAL:
+    question = `Quelle est la capitale de ${country.translations.fr} ?`;
+    currentCorrectAnswer = country.capital;
+    break;
+  case GAME_MODES.CURRENCY:
+    question = `Quelle est la monnaie utilisée dans ${country.translations.fr} ?`;
+    currentCorrectAnswer = country.currencies[0].name;
+    break;
+  case GAME_MODES.LANGUAGE:
+    question = `Quelle est l'une des langues officielles de ${country.translations.fr} ?`;
+    currentCorrectAnswer = country.languages[0].name;
+    break;
+  default:
+    throw new Error('Invalid game mode');
+}
 
     // Generate multiple choice answers
     let options = [currentCorrectAnswer];

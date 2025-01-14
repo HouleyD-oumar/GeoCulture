@@ -37,53 +37,67 @@
         <li><a href="play.html">Jouer</a></li>
         
     </ul>
-   
-    <section class="container" id="globalContainer">
-        <div class="mode-selection">
-            <h4>Select Game Mode:</h4>
-            <select id="game-mode">
-                <option value="name">Country Name</option>
-                <option value="capital">Capital City</option>
-                <option value="currency">Currency</option>
-                <option value="language">Language</option>
-            </select>
-        </div>
-        <div id="score-container" style="display: none;">
-            <h4>Your Score: <span id="score">0</span></h4>
-            <button id="restart-quiz" class="btn-large blue">Restart Quiz</button>
-        </div>
-        <div class="difficulty-selection">
-            <h4>Select Difficulty Level:</h4>
-            <select id="difficulty-level">
-                <option value="easy">Easy</option>
-                <option value="medium">Medium</option>
-                <option value="hard">Hard</option>
-            </select>
-        </div>
-    
-        <button id="start-quiz" class="btn-large blue">Start Quiz</button>
-    
-        <div class="play-area center card" id="quizz" style="display: none;">
-            <div class="card-title">
-                <h3 id="p-question">Quelle est le nom de ce pays?</h3>
-                <span class="btn-floating red text-darken-5 white-text large-text center lighten-1 pulse" id="game-time">03:59</span>
+
+   <main class="container">
+
+       <section class="container" id="globalContainer" style="height: 100vh;">
+           <div class="mode-selection">
+               <h4>Select Game Mode:</h4>
+               <select id="game-mode">
+                   <option value="name">Country Name</option>
+                   <option value="capital">Capital City</option>
+                   <option value="currency">Currency</option>
+                   <option value="language">Language</option>
+               </select>
+           </div>
+           <div id="score-container" style="display: none;">
+               <h4>Score: <span id="score">0</span> /10</h4>
+               <button id="restart-quiz" class="btn-large blue">Restart Quiz</button>
+           </div>
+           <div class="difficulty-selection">
+               <h4>Select Difficulty Level:</h4>
+               <select id="difficulty-level">
+                   <option value="easy">Easy</option>
+                   <option value="medium">Medium</option>
+                   <option value="hard">Hard</option>
+               </select>
+           </div>
+       
+           <button id="start-quiz" class="btn-large blue">Start Quiz</button>
+       
+           <div class="play-area center card" id="quizz" style="display: none;">
+               <div class="card-title">
+                   <h3 id="p-question">Quelle est le nom de ce pays?</h3>
+                   <span class="btn-floating red text-darken-5 white-text large-text center lighten-1 pulse" id="game-time">03:59</span>
+               </div>
+               <div class="card-image  ">
+                   <img src="/images/contries/flags/guinée-flag.svg" alt="" id="play-img" class="responsive-img z-depth-2">
+               </div>
+               <div class="options card-action">
+                   <div class="btn-large option white black-text lighten-2 hoverable waves-effect wave-green text-darken-5" id="option-a"></div>
+                   <div class="btn-large option white black-text lighten-2 hoverable waves-effect wave-green text-darken-5" id="option-b"></div>
+                   <div class="btn-large option white black-text lighten-2 hoverable waves-effect wave-green text-darken-5" id="option-c"></div>
+                   <div class="btn-large option white black-text lighten-2 hoverable waves-effect wave-green text-darken-5" id="option-d"></div>
+               </div>
+               <div class="progress lighten-2 white" style="height: 20px;">
+                   <div class="determinate blue" style="width: 0%;"></div>
+               </div>
+           </div>
+       </section>
+   </main>
+        <footer class="page-footer"  >
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m8 l6">
+                        <h5 class="white-text">First Footer Content</h5>
+                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    </div>
+                    <div class="col s12 m4 l6">
+                        <h5 class="white-text">Second Footer Content</h5>
+                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    </div>
+                </div>
             </div>
-            <div class="card-image  ">
-                <img src="/images/contries/flags/guinée-flag.svg" alt="" id="play-img" class="responsive-img z-depth-2">
-            </div>
-            <div class="options card-action">
-                <div class="btn-large option white black-text lighten-2 hoverable waves-effect wave-green text-darken-5" id="option-a"></div>
-                <div class="btn-large option white black-text lighten-2 hoverable waves-effect wave-green text-darken-5" id="option-b"></div>
-                <div class="btn-large option white black-text lighten-2 hoverable waves-effect wave-green text-darken-5" id="option-c"></div>
-                <div class="btn-large option white black-text lighten-2 hoverable waves-effect wave-green text-darken-5" id="option-d"></div>
-            </div>
-            <div class="progress lighten-2 white" style="height: 20px;">
-                <div class="determinate blue" style="width: 0%;"></div>
-            </div>
-        </div>
-    </section>
-        <footer class="page-footer">
-            
             <div class="footer-copyright">
                 <div class="container">
                     © 2024 Copyright Big Tenor

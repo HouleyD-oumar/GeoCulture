@@ -22,6 +22,19 @@
   border: 1px solid #fff;
 }
 
+.country-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.country-details .card-content {
+  margin-left: auto;
+  margin-right: auto;
+  place-self: center;
+  width: 100%;
+}
+
 .details {
   flex: 1;
   margin-left: 20px;
@@ -48,4 +61,5 @@
   margin-right: 5px;
   color: #fff;
   cursor: pointer;
+  margin: 1 rem;
 }/*# sourceMappingURL=single-country.css.map */

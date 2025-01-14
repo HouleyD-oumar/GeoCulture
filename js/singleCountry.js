@@ -25,32 +25,37 @@ if (country) {
             }
             
         })
+
         console.log(countryBorders);
         `${countryBorders}, `
        console.log( countryBorders.join(', '))
     })
-    // Populate additional information
+  // Informations générales
+    document.getElementById("capital").innerText = country.capital;
+    document.getElementById("population").innerText = formatNumber(country.population);
+    document.getElementById("region").innerText = country.region;
+    document.getElementById("subregion").innerText = country.subregion;
     
-    countryInfo.innerHTML = `
-        <li><strong>Capital:</strong> ${country.capital}</li>
-        <li><strong>Population:</strong> ${formatNumber(country.population)}</li>
-        <li><strong>Area:</strong> ${formatNumber(country.area)} km²</li>
-        <li><strong>Region:</strong> ${country.region}</li>
-        <li><strong>Subregion:</strong> ${country.subregion}</li>
-        <li><strong>Demonym:</strong> ${country.demonym}</li>
-        <li><strong>Languages:</strong> ${country.languages.map(lang => lang.name).join(', ')}</li>
-        <li><strong>Currencies:</strong> ${country.currencies.map(curr => `${curr.name} (${curr.code}) ${curr.symbol}`).join(', ')}</li>
-        <li><strong>Calling Codes:</strong> &plus; ${country.callingCodes.join(', ')}</li>
-        <li><strong>Timezones:</strong> ${country.timezones.join(', ')}</li>
-        <li class="border-countries"><strong>Borders:</strong> ${country.borders 
-            ? 
-            // countryBorders.join(', ')
-            countryBorders.map(b_country=>
-                `<button class='border'>${b_country}</button>`
-            ).join(' ')
-            
-            : 'None'}</li>
-    `;
+    // Données géographiques
+    document.getElementById("area").innerText = `${formatNumber(country.area)} km²`;
+    document.getElementById("coordinates").innerText = `${country.latlng[0]}°, ${country.latlng[1]}°`;
+    document.getElementById("timezones").innerText = country.timezones.join(', ');
+    
+    // Culture et Langue
+    document.getElementById("languages").innerText = country.languages.map(lang => lang.name).join(', ');
+    document.getElementById("demonym").innerText = country.demonym;
+    
+    // Économie et Communication
+    document.getElementById("currencies").innerHTML = country.currencies.map(curr => 
+        `<span class="symbol-money">${curr.symbol}</span> ${curr.name} (${curr.code})`
+    ).join(', ');
+    document.getElementById("calling-codes").innerText = `+${country.callingCodes.join(', +')}`;
+    
+    // Pays frontaliers
+    document.getElementById("borders").innerHTML = country.borders ? 
+        countryBorders.map(b_country =>
+            `<button class="btn-small border waves-effect waves-light">${b_country}</button>`
+        ).join(' ') : 'Aucun pays frontalier';
    
 } else {
     // Handle the case where the country is not found

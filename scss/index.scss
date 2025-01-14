@@ -9,6 +9,10 @@ nav,.page-footer{
     background-color: #7dfa00;
 }
 
+main {
+    min-height: calc(100vh - 165px);
+}
+
 .showcase{
     background:  no-repeat center  / cover;
     // background-size: auto;
