@@ -5,8 +5,9 @@
   margin: 0;
 }
 
-nav, .page-footer {
-  background-color: #7dfa00;
+.navbar-wrapper, .page-footer {
+  background-color: #110909;
+  color: #f4f7f1;
 }
 
 main {
@@ -23,13 +24,16 @@ main {
   padding: 1.3rem;
 }
 .showcase .contryInfo {
-  background-color: #7efc00;
+  background-color: #f4f7f1;
+  color: #110909 !important;
   position: relative;
   bottom: 20%;
   top: 20%;
   right: 20px;
+  height: -moz-fit-content;
   height: fit-content;
   min-width: 300px;
+  max-width: -moz-fit-content;
   max-width: fit-content;
   padding: inherit;
   padding-top: 0;
@@ -177,4 +181,4 @@ main {
   color: green;
   font-size: 1em;
   margin-top: 10px;
-}/*# sourceMappingURL=index.css.map */
+}
