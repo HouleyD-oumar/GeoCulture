@@ -1,0 +1,218 @@
+{
+  "app": {
+    "title": "GeoCulture",
+    "tagline": "Explorez les cultures et la géographie du monde"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "learn": "Apprendre",
+    "play": "Jouer",
+    "leaderboard": "Classement",
+    "login": "Connexion",
+    "signup": "Inscription",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "logout": "Déconnexion",
+    "admin": "Administration"
+  },
+  "auth": {
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "sendResetLink": "Envoyer le lien de réinitialisation",
+    "backToLogin": "Retour à la connexion",
+    "loginTitle": "Bienvenue",
+    "loginSubtitle": "Connectez-vous pour continuer votre voyage",
+    "signupTitle": "Créer un compte",
+    "signupSubtitle": "Rejoignez GeoCulture et commencez à explorer",
+    "resetTitle": "Réinitialiser votre mot de passe",
+    "resetSubtitle": "Entrez votre adresse e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe",
+    "newPasswordTitle": "Définir un nouveau mot de passe",
+    "newPasswordSubtitle": "Entrez votre nouveau mot de passe ci-dessous",
+    "requestNewResetLink": "Demander un nouveau lien de réinitialisation",
+    "passwordResetSuccess": "Le mot de passe a été réinitialisé avec succès ! Redirection vers la connexion...",
+    "invalidResetLink": "Lien de réinitialisation invalide ou expiré. Veuillez en demander un nouveau.",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "haveAccount": "Vous avez déjà un compte ?",
+    "resetLinkSent": "Le lien de réinitialisation du mot de passe a été envoyé à votre adresse e-mail. Veuillez vérifier votre boîte de réception."
+  },
+  "password": {
+    "strength": "Force du mot de passe",
+    "requirements": "Au moins 8 caractères avec majuscules, minuscules et chiffres",
+    "mismatch": "Les mots de passe ne correspondent pas",
+    "veryWeak": "Très faible",
+    "weak": "Faible",
+    "good": "Bon",
+    "strong": "Fort",
+    "veryStrong": "Très fort"
+  },
+  "profile": {
+    "editProfile": "Modifier le profil",
+    "username": "Nom d'utilisateur",
+    "fullName": "Nom complet",
+    "bio": "Biographie",
+    "location": "Localisation",
+    "website": "Site web",
+    "saveChanges": "Enregistrer les modifications",
+    "uploadAvatar": "Télécharger",
+    "deleteAvatar": "Supprimer",
+    "profileUpdated": "Profil mis à jour avec succès !",
+    "usernameAvailable": "Nom d'utilisateur disponible",
+    "usernameTaken": "Nom d'utilisateur déjà pris",
+    "aboutYou": "Parlez-nous un peu de vous",
+    "websitePlaceholder": "https://exemple.com",
+    "usernameHelp": "Choisissez un nom d'utilisateur unique"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "theme": "Thème",
+    "language": "Langue",
+    "notifications": "Notifications",
+    "dark": "Sombre",
+    "light": "Clair",
+    "system": "Système",
+    "settingsUpdated": "Paramètres mis à jour avec succès !"
+  },
+  "quiz": {
+    "start": "Commencer le quiz",
+    "next": "Suivant",
+    "skip": "Passer",
+    "finish": "Terminer",
+    "correct": "Correct !",
+    "incorrect": "Incorrect !",
+    "yourScore": "Votre score",
+    "timeRemaining": "Temps restant",
+    "flagsDescription": "Testez vos connaissances des drapeaux du monde",
+    "capitalsDescription": "Identifiez les capitales des pays",
+    "geographyDescription": "Testez vos connaissances de la géographie mondiale",
+    "populationDescription": "Devinez la population de différents pays",
+    "advancedDescription": "Questions avancées pour les experts en géographie",
+    "difficulty": {
+      "label": "Difficulté",
+      "easy": "Facile",
+      "medium": "Moyen",
+      "hard": "Difficile"
+    },
+    "types": {
+      "flags": "Drapeaux",
+      "capitals": "Capitales",
+      "geography": "Géographie",
+      "population": "Population",
+      "advanced": "Avancé"
+    }
+  },
+  "play": {
+    "title": "Jouer & Apprendre",
+    "subtitle": "Défiez-vous avec différents types de quiz et niveaux de difficulté",
+    "quizTypes": "Types de quiz",
+    "multiplayerTitle": "Multijoueur",
+    "multiplayerDescription": "Défiez des amis ou des joueurs aléatoires"
+  },
+  "dailyChallenge": {
+    "title": "Défi quotidien",
+    "description": "Testez vos connaissances avec un nouveau défi chaque jour",
+    "completed": "Vous avez terminé le défi d'aujourd'hui",
+    "notCompleted": "Vous n'avez pas encore terminé le défi d'aujourd'hui",
+    "streak": "Série actuelle : {{count}} jours",
+    "leaderboard": "Classement d'aujourd'hui",
+    "history": "Votre historique de défis",
+    "statistics": "Statistiques des défis",
+    "totalChallenges": "Total des défis terminés",
+    "averageScore": "Score moyen",
+    "bestScore": "Meilleur score",
+    "fastestTime": "Temps le plus rapide",
+    "start": "Commencer le défi du jour"
+  },
+  "errors": {
+    "general": "Une erreur s'est produite. Veuillez réessayer.",
+    "notAuthenticated": "Vous devez être connecté pour accéder à cette fonctionnalité",
+    "loadingFailed": "Échec du chargement des données. Veuillez réessayer.",
+    "savingFailed": "Échec de l'enregistrement des données. Veuillez réessayer.",
+    "fillAllFields": "Veuillez remplir tous les champs",
+    "enterEmail": "Veuillez entrer votre adresse e-mail"
+  },
+  "common": {
+    "back": "Retour",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "noResults": "Aucun résultat",
+    "noData": "Aucune donnée"
+  },
+  "country": {
+    "loading": "Chargement des informations du pays...",
+    "notFound": "Pays non trouvé",
+    "details": "Détails du pays",
+    "capital": "Capitale",
+    "population": "Population",
+    "area": "Superficie",
+    "region": "Région",
+    "subregion": "Sous-région",
+    "languages": "Langues",
+    "currencies": "Monnaies",
+    "borders": "Pays frontaliers",
+    "noBorders": "Aucun pays frontalier",
+    "generalInfo": "Informations générales",
+    "geographicData": "Données géographiques",
+    "cultureLanguage": "Culture et langue",
+    "economyCommunication": "Économie et communication"
+  },
+  "quiz": {
+    "pageTitle": "Jouer au Quiz de Géographie",
+    "pageSubtitle": "Testez vos connaissances de la géographie mondiale",
+    "start": "Commencer le quiz",
+    "next": "Suivant",
+    "skip": "Passer",
+    "finish": "Terminer",
+    "selectDifficulty": "Sélectionner la difficulté",
+    "mode": "Mode",
+    "questions": "Questions",
+    "timeLimit": "Temps limite",
+    "points": "Points",
+    "penalty": "Pénalité",
+    "tabs": {
+      "all": "Tous les Quiz",
+      "basic": "Basique",
+      "advanced": "Avancé"
+    },
+    "difficulty": {
+      "easy": "Facile",
+      "medium": "Moyen",
+      "hard": "Difficile",
+      "expert": "Expert"
+    },
+    "difficultyDescriptions": {
+      "easy": "Pour les débutants. Questions simples avec plus de temps pour répondre.",
+      "medium": "Difficulté standard. Bon équilibre entre défi et accessibilité.",
+      "hard": "Pour les experts. Questions difficiles avec moins de temps pour répondre.",
+      "expert": "Le défi ultime. Seulement pour les véritables maîtres de la géographie."
+    },
+    "types": {
+      "flags": "Quiz des Drapeaux",
+      "capitals": "Capitales",
+      "population": "Quiz de Population",
+      "geography": "Quiz de Géographie",
+      "advanced": "Quiz Avancé"
+    },
+    "descriptions": {
+      "flags": "Testez vos connaissances des drapeaux nationaux",
+      "capitals": "Associez les pays avec leurs capitales",
+      "population": "Testez vos connaissances des populations des pays",
+      "geography": "Testez vos connaissances de la géographie mondiale",
+      "advanced": "Testez vos connaissances avancées de la géographie et de la culture mondiale"
+    }
+  },
+  "achievements": {
+    "viewAll": "Voir les Réalisations"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "app": {
+    "title": "GeoCulture",
+    "tagline": "Explora las culturas y geografía del mundo"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "learn": "Aprender",
+    "play": "Jugar",
+    "profile": "Perfil",
+    "leaderboard": "Clasificación",
+    "favorites": "Favoritos",
+    "achievements": "Logros",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse",
+    "logout": "Cerrar sesión",
+    "settings": "Configuración"
+  },
+  "auth": {
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "resetPassword": "Restablecer contraseña",
+    "sendResetLink": "Enviar enlace de restablecimiento",
+    "backToLogin": "Volver al inicio de sesión",
+    "loginTitle": "Bienvenido de nuevo",
+    "loginSubtitle": "Inicia sesión para continuar tu viaje",
+    "signupTitle": "Crear una cuenta",
+    "signupSubtitle": "Únete a GeoCulture y comienza a explorar",
+    "resetTitle": "Restablece tu contraseña",
+    "resetSubtitle": "Ingresa tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña",
+    "newPasswordTitle": "Establecer nueva contraseña",
+    "newPasswordSubtitle": "Ingresa tu nueva contraseña a continuación",
+    "requestNewResetLink": "Solicitar nuevo enlace de restablecimiento",
+    "passwordResetSuccess": "¡La contraseña se ha restablecido con éxito! Redirigiendo al inicio de sesión...",
+    "invalidResetLink": "Enlace de restablecimiento inválido o expirado. Por favor solicita uno nuevo.",
+    "noAccount": "¿No tienes una cuenta?",
+    "haveAccount": "¿Ya tienes una cuenta?",
+    "resetLinkSent": "Se ha enviado un enlace de restablecimiento de contraseña a tu correo electrónico. Por favor revisa tu bandeja de entrada."
+  },
+  "password": {
+    "strength": "Fortaleza de la contraseña",
+    "requirements": "Al menos 8 caracteres con mayúsculas, minúsculas y números",
+    "mismatch": "Las contraseñas no coinciden",
+    "veryWeak": "Muy débil",
+    "weak": "Débil",
+    "good": "Buena",
+    "strong": "Fuerte",
+    "veryStrong": "Muy fuerte"
+  },
+  "profile": {
+    "editProfile": "Editar perfil",
+    "username": "Nombre de usuario",
+    "fullName": "Nombre completo",
+    "bio": "Biografía",
+    "location": "Ubicación",
+    "website": "Sitio web",
+    "saveChanges": "Guardar cambios",
+    "uploadAvatar": "Subir",
+    "deleteAvatar": "Eliminar",
+    "profileUpdated": "¡Perfil actualizado con éxito!",
+    "usernameAvailable": "Nombre de usuario disponible",
+    "usernameTaken": "Nombre de usuario ya está en uso",
+    "aboutYou": "Cuéntanos un poco sobre ti",
+    "websitePlaceholder": "https://ejemplo.com",
+    "usernameHelp": "Elige un nombre de usuario único"
+  },
+  "settings": {
+    "title": "Configuración",
+    "theme": "Tema",
+    "language": "Idioma",
+    "notifications": "Notificaciones",
+    "dark": "Oscuro",
+    "light": "Claro",
+    "system": "Sistema",
+    "settingsUpdated": "¡Configuración actualizada con éxito!"
+  },
+  "quiz": {
+    "start": "Comenzar cuestionario",
+    "next": "Siguiente",
+    "skip": "Omitir",
+    "finish": "Finalizar",
+    "correct": "¡Correcto!",
+    "incorrect": "¡Incorrecto!",
+    "yourScore": "Tu puntuación",
+    "timeRemaining": "Tiempo restante",
+    "flagsDescription": "Pon a prueba tu conocimiento de banderas del mundo",
+    "capitalsDescription": "Identifica las capitales de los países",
+    "geographyDescription": "Pon a prueba tu conocimiento de geografía mundial",
+    "populationDescription": "Adivina la población de diferentes países",
+    "advancedDescription": "Preguntas avanzadas para expertos en geografía",
+    "difficulty": {
+      "label": "Dificultad",
+      "easy": "Fácil",
+      "medium": "Medio",
+      "hard": "Difícil"
+    },
+    "types": {
+      "flags": "Banderas",
+      "capitals": "Capitales",
+      "geography": "Geografía",
+      "population": "Población",
+      "advanced": "Avanzado"
+    }
+  },
+  "play": {
+    "title": "Jugar y Aprender",
+    "subtitle": "Desafíate con diferentes tipos de cuestionarios y niveles de dificultad",
+    "quizTypes": "Tipos de cuestionarios",
+    "multiplayerTitle": "Multijugador",
+    "multiplayerDescription": "Desafía a amigos o jugadores aleatorios"
+  },
+  "dailyChallenge": {
+    "title": "Desafío diario",
+    "description": "Pon a prueba tus conocimientos con un nuevo desafío cada día",
+    "completed": "Has completado el desafío de hoy",
+    "notCompleted": "Aún no has completado el desafío de hoy",
+    "streak": "Racha actual: {{count}} días",
+    "leaderboard": "Clasificación de hoy",
+    "history": "Tu historial de desafíos",
+    "statistics": "Estadísticas de desafíos",
+    "totalChallenges": "Total de desafíos completados",
+    "averageScore": "Puntuación media",
+    "bestScore": "Mejor puntuación",
+    "fastestTime": "Tiempo más rápido",
+    "start": "Comenzar el desafío de hoy"
+  },
+  "errors": {
+    "general": "Algo salió mal. Por favor, inténtalo de nuevo.",
+    "notAuthenticated": "Debes iniciar sesión para acceder a esta función",
+    "loadingFailed": "Error al cargar los datos. Por favor, inténtalo de nuevo.",
+    "savingFailed": "Error al guardar los datos. Por favor, inténtalo de nuevo.",
+    "fillAllFields": "Por favor completa todos los campos",
+    "enterEmail": "Por favor ingresa tu correo electrónico"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "saving": "Guardando...",
+    "success": "¡Éxito!",
+    "error": "¡Error!",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "save": "Guardar",
+    "close": "Cerrar",
+    "search": "Buscar...",
+    "all": "Todos",
+    "noResults": "No se encontraron resultados",
+    "tryAgain": "Intentar de nuevo"
+  }
+}

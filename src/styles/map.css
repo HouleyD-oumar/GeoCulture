@@ -1,0 +1,22 @@
+.marker {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.marker-geography { background-color: #4CAF50; }
+.marker-culture { background-color: #2196F3; }
+.marker-history { background-color: #FFC107; }
+.marker-default { background-color: #9C27B0; }
+
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  padding: 10px;
+  border-radius: 5px;
+}
