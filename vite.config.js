@@ -17,6 +17,7 @@ export default defineConfig(({ mode }) => {
     build: {
       outDir: 'dist',
       sourcemap: mode !== 'production', // Enable sourcemaps in development
+      chunkSizeWarningLimit: 2048,
       // Improve chunk size
       rollupOptions: {
         output: {
@@ -27,6 +28,17 @@ export default defineConfig(({ mode }) => {
           },
         },
       },
+    },
+    optimizeDeps: {
+      esbuildOptions: {
+        chunkSizeWarningLimit: 2048,
+        target: 'esnext',
+        // Optimize memory usage during build
+        minify: false,
+        splitting: true,
+        format: 'esm',
+        platform: 'browser'
+      }
     },
     resolve: {
       alias: {
